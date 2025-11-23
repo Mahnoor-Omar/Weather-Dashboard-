@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import weatherData from "../WeatherData/WeatherData";
-import NavBar from "../NavBar/NavBar";
 import "./WeatherDashboard.css";
 
 const WeatherDashboard = () => {
@@ -60,3 +59,4 @@ const WeatherDashboard = () => {
 };
 
 export default WeatherDashboard;
+
