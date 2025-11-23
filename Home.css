@@ -1,0 +1,59 @@
+.home-container {
+  min-height: 90vh; /* leave space for NavBar */
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* rest of the hero-card styling remains the same */
+
+.hero-card {
+  background-color: #ffffffcc; /* slightly transparent white */
+  padding: 60px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero-card h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-card p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-cities {
+  text-decoration: none;
+  padding: 12px 25px;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.btn-cities:hover {
+  background-color: #0096c7;
+  transform: scale(1.05);
+}
+
+/* Optional emoji styling */
+.welcome-emoji {
+  font-size: 50px;
+  margin-bottom: 15px;
+  display: block;
+}

@@ -1,0 +1,52 @@
+const weatherData = [
+  {
+    city: "Karachi",
+    temperature: 30,
+    humidity: 70,
+    windSpeed: 5,
+    condition: "Sunny",
+    forecast: [
+      { day: "Mon", temp: 30, condition: "Sunny" },
+      { day: "Tue", temp: 31, condition: "Sunny" },
+      { day: "Wed", temp: 29, condition: "Cloudy" },
+      { day: "Thu", temp: 28, condition: "Rainy" },
+      { day: "Fri", temp: 30, condition: "Sunny" },
+      { day: "Sat", temp: 31, condition: "Sunny" },
+      { day: "Sun", temp: 32, condition: "Sunny" },
+    ],
+  },
+  {
+    city: "Lahore",
+    temperature: 28,
+    humidity: 65,
+    windSpeed: 6,
+    condition: "Cloudy",
+    forecast: [
+      { day: "Mon", temp: 28, condition: "Cloudy" },
+      { day: "Tue", temp: 27, condition: "Rainy" },
+      { day: "Wed", temp: 28, condition: "Cloudy" },
+      { day: "Thu", temp: 29, condition: "Sunny" },
+      { day: "Fri", temp: 28, condition: "Cloudy" },
+      { day: "Sat", temp: 27, condition: "Rainy" },
+      { day: "Sun", temp: 29, condition: "Sunny" },
+    ],
+  },
+  {
+    city: "Islamabad",
+    temperature: 25,
+    humidity: 60,
+    windSpeed: 4,
+    condition: "Rainy",
+    forecast: [
+      { day: "Mon", temp: 25, condition: "Rainy" },
+      { day: "Tue", temp: 26, condition: "Cloudy" },
+      { day: "Wed", temp: 24, condition: "Rainy" },
+      { day: "Thu", temp: 25, condition: "Cloudy" },
+      { day: "Fri", temp: 26, condition: "Sunny" },
+      { day: "Sat", temp: 27, condition: "Sunny" },
+      { day: "Sun", temp: 25, condition: "Rainy" },
+    ],
+  },
+];
+
+export default weatherData;
